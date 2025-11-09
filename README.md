@@ -28,8 +28,6 @@ Pizza Data:A csv file provided by the organisation ,which contains the relevant 
 2. Load and transform the data using Power Query.
 3. Address any missing values.
 4. Standardize data formatting.
-
-   ### *Load Data*
   
 
 ### Data Modelling
@@ -41,10 +39,12 @@ Pizza Data:A csv file provided by the organisation ,which contains the relevant 
 6. Use the drag-and-drop method to define these relationships.
 
    ### *Relationship Model*
+   <img width="1035" height="635" alt="image" src="https://github.com/user-attachments/assets/94c30be7-d2ef-4b84-94a6-6be6cd4da4d5" />
+
   
 
 ### Data Visualisation
-1. Create a DAX Measures Table containing calculations for CSP Rate and PAYG Rate for report visualizations (for comparisons).
+1. Create a DAX Measures Table for calculating weekly sales.
 2. Design the report theme.
 3. Select appropriate visualizations and format them according to the theme.
 4. Conduct tests on the report.
@@ -59,14 +59,17 @@ Pizza Data:A csv file provided by the organisation ,which contains the relevant 
 
 
 ### Explanatory Data Analysis
-- Analyze costs per subscriptionName, MeterCategory, and ResourceGroup.
-- Assess potential savings/costs using the CSP Rate.
+- Analyze Pizza sales per branch and per day
+- Compare daily target to daily sales
+- Percentage of over selling or under selling beyond the daily sales
 
 ### Findings
-- The Pizza Core Production Subscription represents the highest liability to the organization when using the PAYG Rate.
-- Transitioning to CSP yields significant savings for the company(about 7% less than PAYG)
+- Pizza sales are evidently more on weekends (Friday,Sarturday,Sunday) and exceeds the daily target
+- Start and Middle Week pizza sales are lower than the actual target sales (Mon,Tues,Wed,Thurs)
+- Hot peparoni Pizza is the one in demand
+- Most sales comes from Ikoyi Branch
 
 
 ### Recommendation
-1. I recommend the company switch to the CSP Rate, as it demonstrates a substantial reduction in costs compared to PAYG.
-2. Increase the use of compute engines over storage to further minimize expenses.
+1. I recommend the company increase some weekly promotions for more sales
+2. 1st preference to order more ingredients for Hot peparoni pizza in order to maintain the sales graph
