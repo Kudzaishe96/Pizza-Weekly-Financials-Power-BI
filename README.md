@@ -30,7 +30,7 @@ Pizza Data:A csv file provided by the organisation ,which contains the relevant 
 4. Standardize data formatting.
 
    ### *Load Data*
-   ![Pizza load data](https://github.com/user-attachments/assets/13e83892-2591-4f10-9066-35149235150a)
+  
 
 ### Data Modelling
 1. Identity the number of Dimension Tables and Facts tables for the dataset
@@ -41,7 +41,7 @@ Pizza Data:A csv file provided by the organisation ,which contains the relevant 
 6. Use the drag-and-drop method to define these relationships.
 
    ### *Relationship Model*
-   ![Data Modell](https://github.com/user-attachments/assets/c8fd18c2-11f5-40ce-b99a-eaa90759b33b)
+  
 
 ### Data Visualisation
 1. Create a DAX Measures Table containing calculations for CSP Rate and PAYG Rate for report visualizations (for comparisons).
@@ -51,6 +51,7 @@ Pizza Data:A csv file provided by the organisation ,which contains the relevant 
 
    ### *Dashboard*
 
+<img width="1587" height="611" alt="image" src="https://github.com/user-attachments/assets/d4acca48-e0b3-44c5-a8ac-3384b9a35872" />
 
 
     
